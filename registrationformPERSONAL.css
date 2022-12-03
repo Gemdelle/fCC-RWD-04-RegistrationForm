@@ -1,0 +1,142 @@
+/* font-family: 'Abyssinica SIL', serif;
+font-family: 'Alice', serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Delius', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Old Standard TT', serif;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Titillium Web', sans-serif; */
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Images/Background.jpg);
+    background-size: contain;
+    color:  #f5f6f7;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 20px;
+  gap: 50px;
+  border: 10px ridge #29233e;
+  background-color: #3b3b4f;
+  font-family: 'EB Garamond', serif;
+}
+
+
+.first {
+  width: 100%;
+  min-width: 450px;
+  padding: 20px;
+}
+
+.second {
+  width: 100%;
+  min-width: 450px;
+  padding: 20px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  margin: 0px;
+  font-size: large;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+ input, textarea, select {
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+    min-height: 2em;
+    font-family: 'EB Garamond', serif;
+ } 
+
+ .inline {
+    width: unset;
+    margin: 0px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+  }
+
+  input, textarea {
+    background-color: #0a0a23;
+    border: 5px ridge #313148;
+    color: #ffffff;
+  }
+
+  textarea {
+    height: 170px;
+  }
+
+  select {
+    margin-bottom: 10px;
+  }
+
+  .labelbio {
+    margin: 0;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 5%;
+    height: 1em;
+    min-width: 100px;
+    margin: 2em auto;
+    font-size: 1rem;
+    background-color: #3b3b4f;
+  }
+
+  input[type="submit"]:hover {
+    scale: 110%;
+    background-color: #1c1c2e;
+    transition: all 500ms;
+  }
+
+  input[type="submit"]:not(:hover) {
+    scale: 100%;
+    transition: all 500ms;
+  }
+
+  input[type="file"] {
+    padding: 1px 3px;
+  }
+
+  a {
+    color: #dfdfe2;
+  }
