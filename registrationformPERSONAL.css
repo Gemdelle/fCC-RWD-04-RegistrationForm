@@ -1,39 +1,25 @@
-/* font-family: 'Abyssinica SIL', serif;
-font-family: 'Alice', serif;
-font-family: 'Berkshire Swash', cursive;
-font-family: 'Delius', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Henny Penny', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'IBM Plex Serif', serif;
-font-family: 'Lemonada', cursive;
-font-family: 'Macondo', cursive;
-font-family: 'Old Standard TT', serif;
-font-family: 'Pinyon Script', cursive;
-font-family: 'Rubik Marker Hatch', cursive;
-font-family: 'Rubik Microbe', cursive;
-font-family: 'Satisfy', cursive;
-font-family: 'Tangerine', cursive;
-font-family: 'Titillium Web', sans-serif; */
-
 body {
-    width: 100%;
-    height: 100vh;
     margin: 0;
     background-image: url(Images/Background.jpg);
     background-size: contain;
     color:  #f5f6f7;
     font-family: 'Pinyon Script', cursive;
     font-size: 16px;
-    overflow: hidden;
+/*     overflow: hidden; */
+}
+
+.general-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 form {
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  width: 100%;
   margin: 0px auto;
   margin-top: 20px;
   gap: 50px;
